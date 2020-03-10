@@ -33,6 +33,13 @@
     width: 100%;
     text-align: center;
 }
+
+a:-webkit-any-link {
+    color: #eee;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 [cmd] {
     display: block;
     line-height: 2;
